@@ -265,10 +265,6 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 
 
 
-epic.on('ready',async () => {
-  epic.channels.find(ch => ch.id === "480380218742276096" && ch.type === 'voice').join();
-});
-
 
 
    
